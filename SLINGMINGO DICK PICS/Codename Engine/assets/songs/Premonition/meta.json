@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "dad",
+	"parsedColor": -14268421,
+	"coopAllowed": true,
+	"name": "Premonition",
+	"color": "#2647FB",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Premonition",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 173
+}

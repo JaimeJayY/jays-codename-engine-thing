@@ -1,0 +1,25 @@
+Black Apple Event.hx________PACKSEP________function onEvent(event) {
+	if (event.event.name == 'Black Apple Event') {
+        for(a in stage.stageSprites)
+            a.visible = !event.event.params[0];
+		for(a in strumLines){
+			if(event.event.params[0])
+				a.characters[0].colorTransform.color = event.event.params[1];
+			else
+				a.characters[0].setColorTransform();
+		}
+	}
+}________PACKSEP________{
+    "params": [
+        {
+            "name": "Black apple enable (uncheck to stop the bad apple effect)",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Character color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        }
+    ]
+}________PACKSEP________assets/editors/charter/event-icons/Unknown

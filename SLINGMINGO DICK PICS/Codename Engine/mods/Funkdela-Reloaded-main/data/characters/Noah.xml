@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character icon="Noah-grace" camx="-270" camy="0" color="#948DA3" isPlayer="true" flipX="true" holdTime="2" gameOverChar="da" sprite="Noah_Assets">
+	<anim loop="false" x="0" fps="24" y="0" anim="idle0" name="idle"/>
+
+	<anim loop="false" x="67" fps="24" y="54" anim="note down0" name="singDOWN"/>
+
+	<anim loop="false" x="67" fps="24" y="46" anim="note miss down0" name="singDOWNmiss"/>
+
+	<anim loop="false" x="51" fps="24" y="35" anim="note left0" name="singLEFT"/>
+
+	<anim loop="false" x="49" fps="24" y="33" anim="note miss left0" name="singLEFTmiss"/>
+
+	<anim loop="false" x="7" fps="24" y="44" anim="note right0" name="singRIGHT"/>
+
+	<anim loop="false" x="-2" fps="24" y="37" anim="note miss right0" name="singRIGHTmiss"/>
+
+	<anim loop="false" x="-3" fps="24" y="36" anim="note up0" name="singUP"/>
+
+	<anim loop="false" x="5" fps="24" y="31" anim="note miss up0" name="singUPmiss"/>
+</character>

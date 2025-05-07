@@ -1,0 +1,122 @@
+Change Character.hx________PACKSEP________//a
+// import funkin.backend.scripting.MultiThreadedScript; // OpenGL hates threaded loading characters lmao
+import funkin.game.Character;
+
+var charactersMap:Map<String, Character> = [
+    boyfriend.curCharacter => boyfriend,
+    dad.curCharacter => dad,
+    gf.curCharacter => gf,
+];
+function postCreate() {
+    // 0 - Precache | 1 - StrumLine To Change | 2 - Character Index | 3 - Character Name | 4 - X Offset | 5 - Y Offset
+	for (event in events) {
+		if (event.name != 'Change Character' || event.params[0] == false) continue;
+
+        var newCharName = event.params[3];
+        if (charactersMap.exists(newCharName)) continue;
+
+        var strumLineIdx = Std.parseInt(event.params[1]);
+        var charIndex = Std.parseInt(event.params[2]);
+
+        var strumLine = strumLines.members[strumLineIdx];
+        var characterApplying = strumLine.characters[charIndex];
+        
+        var newChar = precacheCharacter(characterApplying, newCharName, strumLineIdx, {x: Std.parseFloat(event.params[4]), y: Std.parseFloat(event.params[5])});
+        charactersMap.set(newCharName, newChar);
+    }
+}
+
+function onEvent(e) {
+    var event = e.event;
+    if (event.name != "Change Character") return;
+    var strumLineIdx = Std.parseInt(event.params[1]);
+    var charIndex = Std.parseInt(event.params[2]);
+    var newCharName = event.params[3];
+
+    var strumLine = strumLines.members[strumLineIdx];
+    var characterApplying = strumLine.characters[charIndex];
+
+    var characterSetting = precacheCharacter(characterApplying, newCharName, strumLineIdx, {x: Std.parseFloat(event.params[4]), y: Std.parseFloat(event.params[5])});
+
+    if (characterSetting == null || characterApplying == null) return;
+    if (characterApplying.curCharacter == characterSetting.curCharacter) return;
+
+    characterApplying.exists = characterApplying.active = characterApplying.visible = false;
+    characterSetting.exists = characterSetting.active = characterSetting.visible = true;
+    strumLine.characters[Std.parseInt(event.params[3])] = characterSetting;
+
+}
+
+function precacheCharacter(characterToApply:Character, newCharName:String, strumIDX:Int, ?offset) {
+    if (charactersMap.exists(newCharName)) return charactersMap.get(newCharName);
+    offset ??= {x: 0, y: 0};
+    var newChar = new Character(characterToApply.x, characterToApply.y, newCharName, characterToApply.isPlayer);
+    newChar.updateHitbox();
+    newChar.setPosition(characterToApply.x + offset.x, characterToApply.y + offset.y);
+    newChar.exists = newChar.active = newChar.visible = false;
+    insert(members.indexOf(characterToApply), newChar);
+    // cam stage offsets
+    switch (strumIDX) {
+        case 0:
+            newChar.cameraOffset.x += stage?.characterPoses['dad']?.camxoffset;
+            newChar.cameraOffset.y += stage?.characterPoses['dad']?.camyoffset;
+        case 1:
+            newChar.cameraOffset.x += stage?.characterPoses['boyfriend']?.camxoffset;
+            newChar.cameraOffset.y += stage?.characterPoses['boyfriend']?.camyoffset;
+        case 2:
+            newChar.cameraOffset.x += stage?.characterPoses['girlfriend']?.camxoffset;
+            newChar.cameraOffset.y += stage?.characterPoses['girlfriend']?.camyoffset;
+    }
+    
+    // newChar.visible = false;
+    // Rodney i only took this because I wanted to see what this actually did. I still don't know what it does.
+    // try {
+    //     trace("newChar.cameras: " + newChar.cameras);
+    //     for (c in newChar.cameras) {
+    //         newChar.drawComplex(c);
+    //     }
+    // }
+    // catch(e:Dynamic) {
+    //     trace('drawComplex didn\'t work this time for some reason');
+    // }
+    return newChar;
+}________PACKSEP________{
+  "params": [
+    
+    {
+      "name": "Precache",
+      "type": "Bool",
+      "defaultValue": true
+    },
+    
+    {
+      "name": "StrumLine To Change",
+      "type": "StrumLine",
+      "defaultValue": 0
+    },
+    
+    {
+      "name": "Character Index",
+      "type": "Int(0, 99, 1)",
+      "defaultValue": 0
+    },
+
+    {
+      "name": "Character Name",
+      "type": "String",
+      "defaultValue": "bf"
+    },
+
+    {
+      "name": "X Offset",
+      "type": "Float(-999999, 999999, 1, 2)", 
+      "defaultValue": 0
+    },
+    {
+      "name": "Y Offset",
+      "type": "Float(-999999, 999999, 1, 2)", 
+      "defaultValue": 0
+    }
+  ]
+}
+  ________PACKSEP________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DXBwCIwWKXvd4909nb39e6bV3w+YUnK2aIaZKwAADXZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDQuNC4wLUV4aXYyIj4KIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgIHhtbG5zOkdJTVA9Imh0dHA6Ly93d3cuZ2ltcC5vcmcveG1wLyIKICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIgogICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICB4bXBNTTpEb2N1bWVudElEPSJnaW1wOmRvY2lkOmdpbXA6N2E0ZTQ3MTEtNTU2Ni00ZDJiLTk1NWQtMzRmODM4NTJiODAzIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBjNTQxZTVlLTllNmMtNGFlZS1hYjkxLWI3NzE4NjRjZDYyYiIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjg0YzRhMTc5LWNkNmItNDRmOS04MjQ2LTcwYzQ3ZDViYTAyYSIKICAgZGM6Rm9ybWF0PSJpbWFnZS9wbmciCiAgIEdJTVA6QVBJPSIyLjAiCiAgIEdJTVA6UGxhdGZvcm09IldpbmRvd3MiCiAgIEdJTVA6VGltZVN0YW1wPSIxNzM1NjE5MjAxMjg3MDE3IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzIiCiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDI0OjEyOjMwVDIxOjI2OjQwLTA3OjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyNDoxMjozMFQyMToyNjo0MC0wNzowMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjRlYWJmODQxLWIwZjktNDc4MC1hMzkwLTRhZTAzYjliOWNjNSIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2ltcCAyLjEwIChXaW5kb3dzKSIKICAgICAgc3RFdnQ6d2hlbj0iMjAyNC0xMi0zMFQyMToyNjo0MSIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgPC9yZGY6RGVzY3JpcHRpb24+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz4rDY7wAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH6AwfBBopDt9T7AAAAT1JREFUOMuVky9PxEAQxX/TnCHhj72gKgjmHEkF8iwhEL5ET1CLbtHYHqG19w0aCLIJAgT6DIpcIARFCAo1iG33urRHyiSTne103r55Owug//Gpzpp7BNDMDwg+Xuhje7fK9ckmh+9PAAxs4vPN+VFXQgx5Xdsi8wMmz4+GAUBYuiX5WCzIpc44fThrQU33L8xhYalK6npYqgKqDc/8QLkfauYHJgb1wlLJ522i+bzNqsu8fCwQCeEIiMQmwpFZJ6UizYq7bxegq/+aQZdlVzvOfuC0kKphkaoV0h4wlm5EK+Afw6NFbLwWvDFIXj43vWsRo0VsruXXaq2Iyb4Sw2j7BkAHRCJdc9MqrmyykZhgdADrildR7DXGskiWeh1X3/oAyNG5w0oWiRF7d3nFDkhdsKqlZl56vZ8OUnXwAyZJs2kV1VUiAAAAAElFTkSuQmCC

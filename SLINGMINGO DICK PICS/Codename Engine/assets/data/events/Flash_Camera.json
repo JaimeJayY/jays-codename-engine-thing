@@ -1,0 +1,15 @@
+{
+    "params": [
+        {
+            "name": "Duration",
+            "type": "String",
+            "defaultValue": "1"
+        },
+        {
+            "name": "Color",
+            "type": "DropDown('Black', 'Blue', 'Cyan', 'Gray', 'Green', 'Lime', 'Magenta', 'Orange', 'Pink', 'Purple', 'Red', 'White', 'Yellow')",
+            "defaultValue": "White"
+
+        }
+    ]
+}

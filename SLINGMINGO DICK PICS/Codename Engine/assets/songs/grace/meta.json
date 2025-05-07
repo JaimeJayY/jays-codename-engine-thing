@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "tankman",
+	"parsedColor": -14268421,
+	"coopAllowed": true,
+	"name": "grace",
+	"color": "#2647FB",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Grace",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 110
+}

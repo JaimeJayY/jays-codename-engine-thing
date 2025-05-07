@@ -1,0 +1,1 @@
+function create() if(FlxG.save.data.DevMode) importScript("data/scripts/dev_tools/debug_tools");

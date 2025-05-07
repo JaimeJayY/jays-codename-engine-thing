@@ -1,0 +1,20 @@
+<!DOCTYPE codename-engine-character>
+<character x="-760" camx="-270" icon="lilmark-tired" y="0" flipX="true" isPlayer="true" color="#E7E7E7" gameOverChar="da" holdTime="2" sprite="DREAMLilMark">
+	<anim x="0" loop="false" anim="Idle0" y="0" fps="24" name="idle"/>
+
+	<anim x="0" loop="false" anim="Left0" y="0" fps="24" name="singLEFT"/>
+
+	<anim x="0" loop="false" anim="Down0" y="0" fps="24" name="singDOWN"/>
+
+	<anim x="0" loop="false" anim="Up0" y="0" fps="24" name="singUP"/>
+
+	<anim x="0" loop="false" anim="Right0" y="0" fps="24" name="singRIGHT"/>
+
+	<anim x="0" loop="false" anim="LeftMISS0" y="0" fps="24" name="singLEFTmiss"/>
+
+	<anim x="0" loop="false" anim="DownMISS0" y="0" fps="24" name="singDOWNmiss"/>
+
+	<anim x="0" loop="false" anim="UpMISS0" y="0" fps="24" name="singUPmiss"/>
+
+	<anim x="0" loop="false" anim="RightMISS0" y="0" fps="24" name="singRIGHTmiss"/>
+</character>

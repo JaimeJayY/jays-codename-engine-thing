@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "dad",
+	"parsedColor": -14268421,
+	"coopAllowed": true,
+	"name": "shucks",
+	"color": "#2647FB",
+	"customValues": {},
+	"stepsPerBeat": 4,
+	"displayName": "Shucks",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}

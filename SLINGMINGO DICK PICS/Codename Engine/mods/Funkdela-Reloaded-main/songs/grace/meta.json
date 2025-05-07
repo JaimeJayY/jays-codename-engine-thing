@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 110,
+	"difficulties": [
+		"normal"
+	],
+	"needsVoices": true,
+	"parsedColor": -10526881,
+	"displayName": "Grace",
+	"icon": "gabriel-grace",
+	"name": "grace",
+	"color": "#5F5F5F",
+	"customValues": {}
+}

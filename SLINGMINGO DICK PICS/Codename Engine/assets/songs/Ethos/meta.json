@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 178,
+	"difficulties": [
+		"normal"
+	],
+	"needsVoices": true,
+	"parsedColor": -14268421,
+	"displayName": "ETHOS",
+	"icon": "dad",
+	"name": "Ethos",
+	"color": "#2647FB",
+	"customValues": {}
+}

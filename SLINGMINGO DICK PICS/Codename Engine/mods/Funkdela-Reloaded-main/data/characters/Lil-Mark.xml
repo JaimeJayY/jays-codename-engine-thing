@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="LilMark" x="-800" flipX="true" camx="-270" isPlayer="true" icon="lilmark" color="#E7E7E7" gameOverChar="da" holdTime="2">
+	<anim name="idle" anim="Idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Up0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="LeftMISS0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="DownMISS0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="UpMISS0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="RightMISS0" x="0" y="0" fps="24" loop="false"/>
+</character>

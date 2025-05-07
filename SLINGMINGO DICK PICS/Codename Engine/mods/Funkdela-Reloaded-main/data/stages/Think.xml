@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/think/" zoom="0.5">
+	<gf/>
+	<combo/>
+	<sprite x="24" y="-4" sprite="ChatBox" name="ChatBox"/>
+	<sprite sprite="MarkBG" name="MarkBG"/>
+	<sprite sprite="CeaserBG" name="CeaserBG"/>
+	<dad x="-269" y="-236"/>
+	<bf x="-40" y="140"/>
+	<sprite sprite="Black_Border" name="Black_Border"/>
+</stage>

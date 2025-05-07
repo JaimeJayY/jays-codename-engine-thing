@@ -1,0 +1,1 @@
+FlxG.updateFramerate = FlxG.drawFramerate = 700;

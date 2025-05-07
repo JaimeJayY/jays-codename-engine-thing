@@ -1,0 +1,6 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Funny Dev Stuff" desc="Developer Settings">
+	<checkbox id="DevModeRevisited" name="Development Tools" desc="Enables Dev Mode (Dev tools)"/>
+	<checkbox id="DevModeTracing" name="Tracing" desc="Allows Traces To Proceed Into The Console (F2)"/>
+</menu>

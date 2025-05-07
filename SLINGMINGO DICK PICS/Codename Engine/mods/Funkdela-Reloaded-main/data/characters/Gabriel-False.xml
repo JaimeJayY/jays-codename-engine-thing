@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="false_gabriel" camx="10" camy="190" icon="Gabriel-False-Grace" color="#4C4959" gameOverChar="da">
+	<anim name="idle" anim="idle0" x="2" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="note down0" x="16" y="7" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="note left0" x="51" y="27" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="note right0" x="65" y="35" fps="24" loop="false"/>
+	<anim name="singUP" anim="note up0" x="38" y="51" fps="24" loop="false"/>
+</character>
