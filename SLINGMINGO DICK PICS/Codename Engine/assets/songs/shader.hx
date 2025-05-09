@@ -1,4 +1,7 @@
-
+var shaderReduce:CustomShader = new CustomShader("lowquality_0_reduce");
+var shaderSharpen:CustomShader = new CustomShader("lowquality_1_sharpen");
+var shaderBlockEffect:CustomShader = new CustomShader("lowquality_2_blockEffect");
+var shaderMain:CustomShader = new CustomShader("lowquality_3_main");
 var shaderAmplification:CustomShader = new CustomShader("lowquality_4_amplification");
 import openfl.display.StageQuality;
 
