@@ -1,0 +1,4 @@
+<!DOCTYPE codename-mod-options>
+<menu name="Strumline Background" desc="Configure the strumline background.">
+    <number id="strumlineBGOpacity" name="Background Opacity" desc="Set the opacity of the strumline background." min="0" max="1" change="0.1"/>
+  </menu>
