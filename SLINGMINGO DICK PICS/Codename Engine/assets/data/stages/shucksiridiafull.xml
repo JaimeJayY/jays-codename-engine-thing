@@ -1,6 +1,7 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/shuckybanger/" zoom="0.7">
 	<sprite scale="10" name="shuckchairfg"/>
+	<use-extension script="dropshadow-effect"/>
 	<sprite x="-1450" sprite="iridaShuck" y="-623" scale="0.75" name="iridaShuck"/>
 	<gf x="1321" y="18"/>
 	<dad/>

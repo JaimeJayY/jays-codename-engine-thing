@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="statidp2.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="glitchyglitch instance10000" x="1" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10001" x="642" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10002" x="1283" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10003" x="1924" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10004" x="2565" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10005" x="3206" y="1" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10006" x="1" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10007" x="642" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10008" x="1283" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10009" x="1924" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10010" x="2565" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10011" x="3206" y="362" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10012" x="1" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10013" x="642" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10014" x="1283" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10015" x="1924" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10016" x="2565" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10017" x="3206" y="723" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10018" x="1" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10019" x="642" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10020" x="1283" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10021" x="1924" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10022" x="2565" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10023" x="3206" y="1084" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10024" x="1" y="1445" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10025" x="642" y="1445" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10026" x="1283" y="1445" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10027" x="1924" y="1445" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10028" x="2565" y="1445" width="640" height="360"/>
+	<SubTexture name="glitchyglitch instance10029" x="3206" y="1445" width="640" height="360"/>
+</TextureAtlas>
