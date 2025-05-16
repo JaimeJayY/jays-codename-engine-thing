@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/ethos1/" zoom="0.5">
+	<gf/>
+	<sprite x="103" y="-67" sprite="dirty" scale="100" name="dirty"/>
+	<sprite x="467" y="-976" sprite="backhill" scale="4" name="backhill"/>
+	<dad x="-510" y="0"/>
+	<sprite x="-578" y="-283" sprite="oldhouse" scale="2" name="oldhouse"/>
+	<bf x="2068" y="-83"/>
+	<combo/>
+	<sprite x="-1905" y="-1467" sprite="hills" scale="3" name="hills"/>
+	<sprite x="170" y="291" sprite="gradient1" scale="50" name="gradient1"/>
+</stage>

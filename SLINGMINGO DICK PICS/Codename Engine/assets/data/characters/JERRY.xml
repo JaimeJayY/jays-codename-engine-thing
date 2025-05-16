@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="jerry2" icon="dad" color="#AE66CE" holdTime="6.1">
+<character sprite="jerry2" icon="dad" color="#AE66CE" holdTime="6.1" zoomAmt="0.3" offAmt="30">
 	<anim name="idle" anim="idle" x="-100" y="0" fps="24" loop="true"/>
 	<anim name="singLEFT" anim="left" x="68.5" y="34" fps="24" loop="false"/>
 	<anim name="singUP" anim="up" x="155" y="215" fps="24" loop="false"/>

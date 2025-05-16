@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Activate?",
+            "type": "String",
+            "defaultValue": "Stage"
+        }
+    ]
+}
