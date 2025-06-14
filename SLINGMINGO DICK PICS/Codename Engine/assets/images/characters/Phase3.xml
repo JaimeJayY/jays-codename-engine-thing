@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Phase3.png">
+<SubTexture name="Phase3 idle0000" x="1451" y="0" width="338" height="496" frameX="-126" frameY="-157" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0001" x="0" y="1085" width="344" height="495" frameX="-125" frameY="-158" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0002" x="1789" y="982" width="351" height="489" frameX="-124" frameY="-163" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0003" x="1564" y="2070" width="368" height="476" frameX="-118" frameY="-176" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0004" x="1715" y="1580" width="365" height="483" frameX="-120" frameY="-169" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0005" x="0" y="2070" width="367" height="481" frameX="-120" frameY="-171" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0006" x="2239" y="0" width="357" height="483" frameX="-122" frameY="-169" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0007" x="456" y="1580" width="354" height="489" frameX="-124" frameY="-163" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0008" x="1040" y="1085" width="341" height="494" frameX="-125" frameY="-159" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 idle0009" x="344" y="1085" width="340" height="495" frameX="-126" frameY="-158" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0000" x="2596" y="0" width="414" height="447" frameX="-95" frameY="-201" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0001" x="1932" y="2070" width="420" height="465" frameX="-95" frameY="-184" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0002" x="1165" y="2070" width="399" height="477" frameX="-96" frameY="-172" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0003" x="765" y="2070" width="400" height="478" frameX="-96" frameY="-171" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0004" x="367" y="2070" width="398" height="479" frameX="-96" frameY="-170" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0005" x="367" y="2070" width="398" height="479" frameX="-96" frameY="-170" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 down0006" x="367" y="2070" width="398" height="479" frameX="-96" frameY="-170" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0000" x="0" y="0" width="360" height="559" frameX="-83" frameY="-95" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0001" x="360" y="0" width="366" height="546" frameX="-82" frameY="-107" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0002" x="726" y="0" width="366" height="533" frameX="-82" frameY="-120" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0003" x="0" y="559" width="361" height="526" frameX="-87" frameY="-127" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0004" x="361" y="559" width="361" height="525" frameX="-87" frameY="-128" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0005" x="361" y="559" width="361" height="525" frameX="-87" frameY="-128" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 up0006" x="361" y="559" width="361" height="525" frameX="-87" frameY="-128" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0000" x="722" y="559" width="368" height="505" frameX="-83" frameY="-146" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0001" x="684" y="1085" width="356" height="495" frameX="-93" frameY="-157" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0002" x="1381" y="1085" width="355" height="493" frameX="-96" frameY="-160" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0003" x="1092" y="498" width="359" height="497" frameX="-96" frameY="-156" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0004" x="1092" y="0" width="359" height="498" frameX="-96" frameY="-155" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0005" x="1092" y="0" width="359" height="498" frameX="-96" frameY="-155" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 left0006" x="1092" y="0" width="359" height="498" frameX="-96" frameY="-155" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0000" x="810" y="1580" width="460" height="489" frameX="-134" frameY="-166" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0001" x="0" y="1580" width="456" height="490" frameX="-127" frameY="-166" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0002" x="1270" y="1580" width="445" height="487" frameX="-123" frameY="-169" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0003" x="1789" y="0" width="450" height="491" frameX="-115" frameY="-165" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0004" x="1789" y="491" width="448" height="491" frameX="-116" frameY="-165" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0005" x="1789" y="491" width="448" height="491" frameX="-116" frameY="-165" frameWidth="631" frameHeight="677" />
+<SubTexture name="Phase3 right0006" x="1789" y="491" width="448" height="491" frameX="-116" frameY="-165" frameWidth="631" frameHeight="677" />
+</TextureAtlas>

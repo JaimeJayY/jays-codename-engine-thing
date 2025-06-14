@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shuckybanger/" zoom="0.7">
+	<sprite x="-2407" sprite="iridaShuck" y="-555" scale="0.9" name="iridaShuck"/>
+	<gf x="374" scrolly="1" y="97" scale="1.2" scrollx="1"/>
+	<dad x="-781" scale="1.5" y="140"/>
+	<bf scale="1.2" x="703" y="419"/>
+	<combo/>
+	<sprite x="-2402" antialiasing="false" sprite="ShucksIlumination" y="-550" scale="0.9" name="ShucksIlumination"/>
+	<sprite x="-2091" sprite="ShucksChains" y="-349" scale="0.8" name="ShucksChains"/>
+	<sprite x="-2909" name="ShucksHook" sprite="ShucksHook" y="-239"/>
+	<sprite x="-224" y="288" sprite="shuckfront" scale="2.5" name="shuckfront"/>
+</stage>

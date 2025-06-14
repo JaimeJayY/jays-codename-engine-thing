@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shuckybanger/" zoom="1">
+	<sprite x="-1086" sprite="super" y="-695" scale="1.3" name="super"/>
+	<gf scrolly="1" x="420" scrollx="1" y="-16"/>
+	<dad x="-470" y="-41"/>
+	<bf x="962" y="404"/>
+	<combo/>
+	<sprite x="-59" y="-67" sprite="shuckchairfg" scale="1.4" name="shuckchairfg"/>
+	<sprite x="-4448" y="-711" sprite="ShucksChains" name="ShucksChains"/>
+	<sprite x="-744" y="-352" sprite="ShucksHook" name="ShucksHook"/>
+	<sprite x="495" sprite="Editing-Red-Glow-PNG-Pic" y="-870" alpha="0.3" scale="10" name="Editing-Red-Glow-PNG-Pic"/>
+	<sprite x="-1179" y="-895" sprite="Editing-Red-Glow-PNG-Pic1" alpha="0.3" scale="10" name="Editing-Red-Glow-PNG-Pic1"/>
+	<sprite x="2419" y="628" sprite="Editing-Red-Glow-PNG-Pic2" scale="10" alpha="0.3" name="Editing-Red-Glow-PNG-Pic2"/>
+</stage>

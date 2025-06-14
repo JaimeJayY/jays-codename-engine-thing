@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="120" y="430" sprite="whistle" scale="1.5" icon="dad" color="#AE66CE" holdTime="6.1">
+	<anim name="idle" anim="whistle idle" x="0" y="0" fps="14" loop="true"/>
+	<anim name="singLEFT" anim="whistle left" x="1" y="0" fps="14" loop="false"/>
+	<anim name="singRIGHT" anim="whistle right" x="0" y="0" fps="14" loop="false"/>
+	<anim name="singUP" anim="whistle up" x="0" y="0" fps="14" loop="false"/>
+	<anim name="singDOWN" anim="whistle down" x="0" y="0" fps="14" loop="false"/>
+</character>

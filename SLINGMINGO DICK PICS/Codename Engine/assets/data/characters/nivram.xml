@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="marvinnew" scale="0.6" flipX="true" isPlayer="true" icon="marvin" color="#EB0000" holdTime="6.1">
+<character sprite="marvinnew" scale="0.9" flipX="true" isPlayer="true" icon="marvin" color="#EB0000" holdTime="6.1" offAmt="30">
 	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
 	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false" indices="1..15"/>
 	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false" indices="1..15"/>

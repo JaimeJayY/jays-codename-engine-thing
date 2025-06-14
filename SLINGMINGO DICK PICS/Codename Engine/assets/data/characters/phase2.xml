@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character y="150" sprite="phase2" icon="unhappy1" color="#AE66CE" holdTime="6.1">
+	<anim name="idle" anim="phase2 Idle" x="0" y="0" fps="14" loop="true"/>
+	<anim name="singLEFT" anim="phase2 Left" x="0" y="0" fps="14" loop="false"/>
+	<anim name="singRIGHT" anim="phase2 Right" x="0" y="0" fps="14" loop="false"/>
+	<anim name="singUP" anim="phase2 Up" x="0" y="0" fps="14" loop="false"/>
+	<anim name="singDOWN" anim="phase2 Down" x="0" y="0" fps="14" loop="false"/>
+	<anim name="laugh" anim="phase2 Hohohooo" x="0" y="0" fps="12" loop="false"/>
+	<anim name="phase2 Talk" anim="phase2 Talk0" x="0" y="0" fps="14" loop="false"/>
+</character>

@@ -3,7 +3,7 @@
 	<sprite scale="10" name="shuckchairfg"/>
 	<use-extension script="dropshadow-effect"/>
 	<sprite x="-1450" sprite="iridaShuck" y="-623" scale="0.75" name="iridaShuck"/>
-	<gf x="1321" y="18"/>
+	<gf x="1321" y="18" scrollx="1"/> 
 	<dad/>
 	<bf x="1534" y="331"/>
 	<combo/>

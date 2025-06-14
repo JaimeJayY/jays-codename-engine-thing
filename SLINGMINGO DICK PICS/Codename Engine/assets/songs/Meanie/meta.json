@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "dad",
+	"difficulties": [
+		"normal"
+	],
+	"parsedColor": -14268421,
+	"customValues": {},
+	"color": "#2647FB",
+	"name": "Meanie",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Meanie",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 155
+}

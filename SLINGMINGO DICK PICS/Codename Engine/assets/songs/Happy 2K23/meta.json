@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "dad",
+	"difficulties": [
+		"normal"
+	],
+	"parsedColor": -14268421,
+	"customValues": {},
+	"color": "#2647FB",
+	"name": "Happy 2K23",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Happy 2K23",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 128
+}
