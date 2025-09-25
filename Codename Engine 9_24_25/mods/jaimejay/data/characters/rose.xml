@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="rose_finished" icon="rose">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singRIGHT" anim="right"/>
+	<anim name="singLEFT" anim="left"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="BopLookLeft" anim="BopLookLeft"/>
+	<anim name="BopLookRight" anim="BopLookRight"/>
+	<anim name="LookingMarvinIdle" anim="LookingMarvinIdle"/>
+</character>

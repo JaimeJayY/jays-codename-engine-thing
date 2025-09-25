@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="MARVIN CHAINED" flipX="true" isPlayer="true" icon="marvin">
+	<anim name="idle" anim="Marvin_Chained Idle" x="-17" y="-78"/>
+	<anim name="singUP" anim="Marvin_Chained Up" x="-40" y="-80"/>
+	<anim name="singDOWN" anim="Marvin_Chained Down" x="25" y="-143"/>
+	<anim name="singLEFT" anim="Marvin_Chained Left" x="89" y="-73"/>
+	<anim name="singRIGHT" anim="Marvin_Chained right" x="-71" y="-86"/>
+</character>

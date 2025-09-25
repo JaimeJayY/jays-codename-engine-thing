@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shuck/" name="uhhh" zoom="0.7">
+	<sprite x="-1974.38779603301" sprite="bg" y="-1074.65222999789" type="none" scale="0.559918060398745" name="sprite_3"/>
+	<sprite x="-3232" scroll="2" sprite="chain" y="-1101" type="none" scale="0.67" name="sprite_8"/>
+	<sprite x="-1978" scroll="1.5" sprite="light" y="-1099" type="none" scale="0.7" name="sprite_4"/>
+	<girlfriend scale="0.85" x="535" scroll="1" y="-5"/>
+	<dad x="23.8068301694349" y="99.5393411029402"/>
+	<boyfriend scale="0.75" x="1200" y="250"/>
+	<sprite x="-1984" scroll="1.5" sprite="glow" y="-1180" type="none" scale="0.56" name="sprite_5"/>
+	<sprite x="-2000" scroll="2" sprite="hook" y="-666.955335489347" type="none" name="sprite_6"/>
+	<sprite x="-1300" sprite="shit" y="-970" type="none" scrollx="2" name="sprite_7"/>
+	<sprite x="-399" y="-317" type="none" angle="0.56" name="sprite_9" sprite="glow2" scroll="0" scalex="1.66" alpha="0.3" scaley="1.57"/>
+	<sprite x="-309" y="-293" type="none" name="sprite_10" sprite="darkness red" scroll="0" scalex="2.11" alpha="0.5" scaley="1.99"/>
+	<sprite x="-102.533130864532" scroll="0" sprite="black" y="-87.6228621968517" type="none" scalex="1.62239551697583" scaley="1.61094284450787" name="sprite_11"/>
+</stage>

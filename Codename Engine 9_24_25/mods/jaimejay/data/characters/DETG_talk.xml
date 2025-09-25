@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="detgShut" camx="150" camy="150">
+	<anim name="idle" anim="DETG_SHUT" x="274" y="249"/>
+	<anim name="singDOWN" anim="downsaw"/>
+	<anim name="singRIGHT" anim="2"/>
+	<anim name="singLEFT" anim="2"/>
+	<anim name="singUP" anim="Headupjusthead"/>
+</character>
