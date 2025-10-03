@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Chair_marvin" icon="marvin_chair" scale="1.2" flipX="true" isPlayer="true" camy="-250">
+	<anim name="idle" anim="IdleSmall"/>
+	<anim name="singDOWN" anim="DownSmall" x="-16" y="-43"/>"
+	<anim name="singRIGHT" anim="RightSmall" x="-21" y="28"/>
+	<anim name="singLEFT" anim="LeftSmall" x="-7" y="10"/>
+	<anim name="singUP" anim="UpSmall" x="51" y="92"/>
+	<anim name="UpMissSmall" anim="UpMissSmall"/>
+	<anim name="DownMissSmall" anim="DownMissSmall"/>
+	<anim name="LeftMissSmall" anim="LeftMissSmall"/>
+	<anim name="RightMissSmall" anim="RightMissSmall"/>
+</character>

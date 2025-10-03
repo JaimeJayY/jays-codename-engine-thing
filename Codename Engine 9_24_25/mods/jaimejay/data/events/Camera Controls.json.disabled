@@ -1,0 +1,15 @@
+{
+    "params": [
+        {
+            "name": "Camera To Control",
+            "type": "DropDown('camGame','camHUD', 'All Cameras')",
+            "defaultValue": "camHUD"
+        },
+
+        {
+            "name": "Angle",
+            "type": "Float(-360, 360, 1, 2)",
+            "defaultValue": "0"
+        }
+    ]
+}

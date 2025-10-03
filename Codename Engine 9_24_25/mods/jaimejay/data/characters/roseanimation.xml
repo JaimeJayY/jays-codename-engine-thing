@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="roseShut" scale="0.95" camx="300" camy="250" icon="character">
+	<anim name="idle" anim="rosebody_SHUT YA TRAPS" x="-150" y="-500"/>
+</character>

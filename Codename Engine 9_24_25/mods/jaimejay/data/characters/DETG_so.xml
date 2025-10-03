@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="detgappear" camx="150" camy="150" icon="DETG_so" scale="0.85" x="150" y="50">
+	<anim name="idle" anim="Butyadidit" x="403" y="1108" fps="30"/>
+	<anim name="singDOWN" anim="downsaw"/>
+	<anim name="singRIGHT" anim="legss"/>
+	<anim name="singLEFT" anim="legss"/>
+	<anim name="singUP" anim="Duplicate Items Folder/Symbol 5"/>
+</character>

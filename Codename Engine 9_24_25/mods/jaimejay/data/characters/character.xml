@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="roseShut" icon="character">
+	<anim name="Marvin2 missdirection4" anim="rosebody_SHUT YA TRAPS" x="-195" y="-538"/>
+</character>

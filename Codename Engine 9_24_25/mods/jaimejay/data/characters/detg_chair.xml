@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="chair detg" antialiasing="true" icon="dbtg" color="#CA3627" scale="1.2" x="-100" y="50" camY="150">
+	<anim name="idle" anim="IdleSmall" loop="true"/>
+	<anim name="singDOWN" anim="DownSmall"/>
+	<anim name="singRIGHT" anim="RightSmall" x="-7" y="89"/>
+	<anim name="singLEFT" anim="LeftSmall" x="-6" y="-15"/>
+	<anim name="singUP" anim="UpSmall" x="-4" y="176"/>
+</character>

@@ -1,0 +1,36 @@
+{
+	"params": [
+        {
+            "name": "Precache Character",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        
+        {
+            "name": "StrumLine's Character Array to Reference",
+            "type": "StrumLine",
+            "defaultValue": 0
+        }, {
+            "name": "Character Index ( StrumLine.characters[index] )",
+            "type": "Int(0, 99999, 1)",
+            "defaultValue": 0
+        },
+
+        {
+            "name": "Character's Name",
+            "type": "String",
+            "defaultValue": ""
+        },
+
+        {
+            "name": "Offset X (Additive Offset | Always applies when calling event)",
+            "type": "Float(-9999999, 9999999, 1, 2)",
+            "defaultValue": 0
+        },
+        {
+            "name": "Offset Y (Additive Offset | Always applies when calling event)",
+            "type": "Float(-9999999, 9999999, 1, 2)",
+            "defaultValue": 0
+        }
+	]
+}

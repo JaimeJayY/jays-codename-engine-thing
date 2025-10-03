@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shuck/chair/" name="chair" zoom="0.7">
+	
+	<sprite x="-1057.70669331641" sprite="bg" y="-345.837507803616" type="none" scalex="0.9" scaley="0.870074603282944" name="sprite_3"/>
+	
+	<dad x="501.367277702079" y="194.280904158206"/>
+	<sprite x="-800.754600969958" sprite="torture" y="-263.521023718517" type="none" scale="0.684745148060335" name="sprite_4"/>
+	<boyfriend x="869.668384395818" y="328.967910098501"/>
+	<girlfriend x="550" y="167.815139660892"/>
+	<sprite x="-659" scroll="0" sprite="glow" y="-294" type="none" name="sprite_5"/>
+</stage>

@@ -1,0 +1,42 @@
+{
+    "params": [
+        {
+            "name": "Character",
+            "type": "StrumLine",
+            "defaultValue": "0"
+        },
+                {
+            "name": "Top Mask Color [RGBA]",
+            "type": "String",
+            "defaultValue": "0,0,0,0"
+        },               {
+            "name": "Sprite Color Configuration  [RGBA]",
+            "type": "String",
+            "defaultValue": "1,0.5,0,0.5"
+        },                {
+            "name": "Light Color [RGBA]",
+            "type": "String",
+            "defaultValue": "0.5,0.5,0,1"
+        },
+                        {
+            "name": "Light Angle",
+            "type": "Int(0, 360, 1)",
+            "defaultValue": "270"
+        },
+                        {
+            "name": "Light Size",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "20"
+        },
+                        {
+            "name": "Numbers of Layers",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "10"
+        },
+                        {
+            "name": "Layer Separation ",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "1"
+        }
+    ]
+}

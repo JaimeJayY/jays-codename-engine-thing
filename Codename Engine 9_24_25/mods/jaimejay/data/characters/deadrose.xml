@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="bloody rose" flipX="false" isPlayer="true" icon="deadrose">
+	<anim name="idle" anim="Idle" loop="true"/>
+</character>

@@ -2,13 +2,15 @@
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [
+		"easy",
+		"normal",
 		"hard"
 	],
-	"color": "#000000",
+	"color": "#9271FD",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
-	"displayName": "SHUCKS",
+	"displayName": "Dadbattle",
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
-	"bpm": 195
+	"bpm": 180
 }

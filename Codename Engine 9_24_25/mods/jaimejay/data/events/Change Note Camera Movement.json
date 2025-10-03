@@ -1,0 +1,14 @@
+{
+	"params": [
+        {
+            "name": "Note Movement Intensity",
+            "type": "Float(0, 99, 0, 2)",
+            "defaultValue": "1"
+        },
+        {
+            "name": "Toggle Camera Movement?",
+            "type": "Bool",
+            "defaultValue": "false"
+        }
+	]
+}

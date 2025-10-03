@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="marvinBlood" flipX="true" isPlayer="true" icon="marvin" color="#FF0000">
+	<anim name="idle" anim="Marvin2 idle" y="-2"/>
+	<anim name="singDOWN" anim="Marvin2 down"/>
+	<anim name="singRIGHT" anim="Marvin2 right"/>
+	<anim name="singLEFT" anim="Marvin2 left" x="-1" y="-2"/>
+	<anim name="singUP" anim="Marvin2 up"/>
+	<anim name="Marvin2 missdirection1" anim="Marvin2 missdirection1" x="-1"/>
+	<anim name="Marvin2 missdirection2" anim="Marvin2 missdirection2"/>
+	<anim name="Marvin2 missdirection3" anim="Marvin2 missdirection3"/>
+	<anim name="Marvin2 missdirection4" anim="Marvin2 missdirection4"/>
+</character>

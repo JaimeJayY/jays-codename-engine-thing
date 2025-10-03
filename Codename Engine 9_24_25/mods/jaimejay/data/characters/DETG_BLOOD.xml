@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="bloodydbtg" camx="-150" camy="-200" icon="DETG_BLOOD">
+<character sprite="bloodydbtg" camx="-150" camy="-200" icon="dbtg" color="#DC3B00" scale="1.2" x="50" y="65">
 	<anim name="idle" anim="idle_BLUD instance 1" loop="true"/>
 	<anim name="singDOWN" anim="down_BLUD instance 1" x="127" y="-159"/>
 	<anim name="singRIGHT" anim="Right_BLUD instance 1" x="488" y="6"/>

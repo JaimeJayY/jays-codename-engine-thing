@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character flipX="true" isPlayer="true" icon="marvin" color="#000000">
+	<anim name="idle" anim="me.png instan"/>
+	<anim name="singDOWN" anim="me.png instan"/>
+	<anim name="singRIGHT" anim="me.png instan"/>
+	<anim name="singLEFT" anim="me.png instan"/>
+	<anim name="singUP" anim="me.png instan"/>
+	<anim name="me.png instan" anim="me.png instan"/>
+</character>
