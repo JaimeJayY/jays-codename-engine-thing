@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="detgrunbody" scale="0.7" camx="100" camy="50" icon="dbtg" color="#000000">
+	<anim name="idle" anim="IDLE DETG" loop="true"/>
+	<anim name="singDOWN" anim="DOWN DETG"/>
+	<anim name="singRIGHT" anim="RIGHT DETG" x="-191" y="1"/>
+	<anim name="singLEFT" anim="LEFT DETG" x="245" y="37"/>
+	<anim name="singUP" anim="UP DETG" x="-34" y="274"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="moovanroon" flipX="true" isPlayer="true" icon="marvin_run">
+	<anim name="idle" anim="Idle" x="19" y="-4" loop="true"/>
+	<anim name="singDOWN" anim="Down" x="-126" y="-84"/>
+	<anim name="singRIGHT" anim="Right" x="-175" y="-29"/>
+	<anim name="singLEFT" anim="Left" x="71" y="-21"/>
+	<anim name="singUP" anim="Up" x="-187" y="85"/>
+</character>

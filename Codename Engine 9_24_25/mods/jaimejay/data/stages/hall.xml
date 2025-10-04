@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/shuck/" name="hall" zoom="1">
+	<girlfriend/>
+	<sprite x="-46.6054441744048" sprite="Running_Hall" y="53.6779407107336" scale="1.77893264406567" name="sprite_3"/>
+	<sprite x="-150" sprite="detgrunlegs" y="150" scale="0.7" name="sprite_4"/>
+	<boyfriend y="50"/>
+	<dad x="20.7195256413735" y="-103.864076855671"/>
+	<sprite x="584" sprite="marvinrunlegs" y="77" scale="0.51" name="sprite_5"/>
+	<sprite x="193.21202667106" scroll="0" sprite="black" y="-140.280973533019" type="none" scalex="1.42498120832647" scaley="1.44383959828873" name="sprite_6"/>
+</stage>

@@ -1,0 +1,132 @@
+Rtx lightning.hx________PACKSEP________var char = null;
+
+function onEvent(event) {
+	if (event.event.name == "Rtx lightning") {
+		if (event.event.params[0]) {
+			char = strumLines.members[event.event.params[3]].characters[0];
+
+			inline function randomColor():Array<Float> {
+				return [for (i in 0...4) Math.fround((Math.random() * 2 - 1) * 100) / 100];
+			}
+
+			var msk:Array<Float>;
+			var sat:Array<Float>;
+			var lght:Array<Float>;
+			var angl:Float;
+			var lghtsz:Int;
+			var numly:Int;
+			var lysep:Int;
+
+
+			if (event.event.params[2]) {
+				char.shader = new CustomShader("RTXLighting");
+				char.shader.overlayColor = [0, 0, 0, 0];
+				char.shader.satinColor = [0, 0, 0, 0];
+				char.shader.innerShadowColor = [0, 0, 0, 0];
+				char.shader.innerShadowAngle = (0 - 90) * Math.PI / 180;
+				char.shader.innerShadowDistance = 1;
+				char.shader.layernumbers = 1;
+				char.shader.layerseparation = 1;
+
+			} else {
+				if (event.event.params[1]) {
+
+					msk = randomColor();
+					sat = randomColor();
+					lght = randomColor();
+					angl = Math.floor(Math.random() * 360);
+					lghtsz = Math.floor(Math.random() * 20) + 1;
+					numly = Math.floor(Math.random() * 10) + 1;
+					lysep = Math.floor(Math.random() * 5) + 1;
+
+					trace("\n\n - - -[[ RANDOM SHADER VALUES ]] - - - ");
+					trace("Top Mask Color :" + msk);
+					trace("Sprite Color Configuration :" + sat);
+					trace("Light Color :" + lght);
+					trace("Light Angle :" + angl);
+					trace("Light Size :" + lghtsz);
+					trace("Number of layers :" + numly);
+					trace("Layer Separation :" + lysep);
+					trace("\n\n");
+
+				} else {
+
+					msk = event.event.params[4].split(",").map(s -> Std.parseFloat(s));
+					sat = event.event.params[5].split(",").map(s -> Std.parseFloat(s));
+					lght = event.event.params[6].split(",").map(s -> Std.parseFloat(s));
+					angl = event.event.params[7];
+					lghtsz = event.event.params[8];
+					numly = event.event.params[9];
+					lysep = event.event.params[10];
+
+				}
+
+				char.shader = new CustomShader("RTXLighting");
+				char.shader.overlayColor = msk;
+				char.shader.satinColor = sat;
+				char.shader.innerShadowColor = lght;
+				char.shader.innerShadowAngle = (angl - 90) * Math.PI / 180;
+				char.shader.innerShadowDistance = lghtsz;
+				char.shader.layernumbers = numly;
+				char.shader.layerseparation = lysep;
+        
+			}
+		}
+	}
+}
+________PACKSEP________{
+    "params": [
+                {
+            "name": "Execute? like an On/Off button",
+            "type": "Bool",
+            "defaultValue": true     
+           },
+                           {
+            "name": "Random? Values are in the console",
+            "type": "Bool",
+            "defaultValue": false     
+           },                           {
+            "name": "Remove shader?",
+            "type": "Bool",
+            "defaultValue": false     
+           },
+        {
+            "name": "\n\n[[Shader parameters]]\nCharacter",
+            "type": "StrumLine",
+            "defaultValue": "0"
+        },
+                {
+            "name": "Top Mask Color [RGBA]",
+            "type": "String",
+            "defaultValue": "0,0,0,0"
+        },               {
+            "name": "Sprite Color Configuration  [RGBA]",
+            "type": "String",
+            "defaultValue": "1,0.5,0,0.5"
+        },                {
+            "name": "Light Color [RGBA]",
+            "type": "String",
+            "defaultValue": "0.5,0.5,0,1"
+        },
+                        {
+            "name": "Light Angle",
+            "type": "Int(0, 360, 1)",
+            "defaultValue": "270"
+        },
+                        {
+            "name": "Light Size",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "20"
+        },
+                        {
+            "name": "\n\n[[ADVANCED]]\nNumbers of Layers",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "10"
+        },
+                        {
+            "name": "Layer Separation ",
+            "type": "Int(0, 100, 1)",
+            "defaultValue": "1"
+        }
+    ]
+}________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAOVJREFUOE+VU80VwiAM/njPBfTYXlzAEbqBXcI1vLuDczCCbtAdOLqAh/hCAg081MKBtmm+H5Lg0F70Je7qeB2IwLjdNfUiz3EHhDU7v1kCyrINMJMEvITNHeKeNxbdDB73QiJ2XHIgBP+UFewDMKsBJugGs9YZTzhMkYaoQzmB5fyWwFS7KJixbcHX04TbIpUkeq+t2grmvIKA+9wDXo4zvPfiYNAe5j7/sM0iDOaVCGT4SIekA1zMQSTYCE7qlkBcDAQekrra1rYF21EWlN4jwiN+cKvqM2te8zIlkkxkAzUw/fsAQgB3C8GRQawAAAAASUVORK5CYII=

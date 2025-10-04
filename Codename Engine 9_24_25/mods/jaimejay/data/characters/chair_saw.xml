@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="chairsaw" icon="chair_saw" x="-60" y="350" scale="1.3">
+<character x="-60" y="350" sprite="chairsaw" scale="1.3">
 	<anim name="idle" anim="Idlesawsmall" loop="true"/>
-	<anim name="singDOWN" anim="downsawsmall"/>
+	<anim name="singDOWN" anim="downsawsmall" x="50"/>
 	<anim name="singRIGHT" anim="rightsawsmall"/>
-	<anim name="singLEFT" anim="Leftsawsmall"/>
-	<anim name="singUP" anim="sawupsmall"/>
+	<anim name="singLEFT" anim="Leftsawsmall" x="50"/>
+	<anim name="singUP" anim="sawupsmall" y="115"/>
 </character>

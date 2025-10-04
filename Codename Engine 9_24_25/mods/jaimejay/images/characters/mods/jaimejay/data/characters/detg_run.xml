@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="detgrunbody">
+	<anim name="idle" anim="IDLE DETG"/>
+	<anim name="singDOWN" anim="DOWN DETG"/>
+	<anim name="singRIGHT" anim="RIGHT DETG"/>
+	<anim name="singLEFT" anim="LEFT DETG"/>
+	<anim name="singUP" anim="UP DETG"/>
+</character>
