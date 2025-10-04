@@ -2,15 +2,15 @@
 my codename engine folder that i do my charts n stuff in
 **PLEASE DO NOT SHARE THIS AROUND UNLESS YOUR MY FRIEND OR SOMETHING**
 
-# NEW BUILD AS OF SEP 25, 2025
+# 10-4-25 UPDATE, SHUCKS PENUT MIX IS FINISHED
 
 _Things the build currently has/songs that are charted/finished_
 
 **FINISHED SONGS**
 
-- NONE ATM LMAO
+- SHUCKS PENUT MIX
 
 **WIP SONGS**
 
-- SHUCKS // PENUT MIX
+- none atm
 
