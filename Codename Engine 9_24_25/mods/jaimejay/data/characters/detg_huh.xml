@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="detgHuh">
+	<anim name="idle" anim="idlehead"/>
+	<anim name="singDOWN" anim="idlebody"/>
+	<anim name="singRIGHT" anim="idlebody"/>
+	<anim name="singLEFT" anim="idlebody"/>
+	<anim name="singUP" anim="idlebody"/>
+</character>
