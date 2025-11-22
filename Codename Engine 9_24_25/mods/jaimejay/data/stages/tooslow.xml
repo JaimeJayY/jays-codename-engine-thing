@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/tooslow/" name="tooslow" zoom="0.8">
+	<sprite x="-525.516286851905" sprite="1back" y="-144.970010125774" type="none" name="sprite_3"/>
+	<sprite x="-526" scroll="1.1" sprite="3firewall" y="-144" type="none" name="sprite_6"/>
+	<sprite x="-523.482718332849" sprite="7ground" y="-143.646121071186" type="none" name="sprite_4"/>
+	<girlfriend x="374.729348806192" y="187.973846856383"/>
+	<dad/>
+	<boyfriend/>
+	<sprite x="-544" scroll="1.5" sprite="bg_tree_2" y="350" type="none" name="sprite_8"/>
+	<sprite x="-518" scroll="1.1" sprite="8foreground" y="-146" type="none" name="sprite_5"/>
+	<sprite x="1276.59656349432" sprite="bg_tree_1" y="780.154932395715" type="none" scrollx="1.3" name="sprite_7"/>
+</stage>

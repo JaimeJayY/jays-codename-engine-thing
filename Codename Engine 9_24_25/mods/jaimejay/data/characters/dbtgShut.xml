@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/detgShut" x="-270" y="-420" camx="710" camy="760" scale="1.1">
+	<anim name="shut" anim="DETG_SHUT" x="0" y="0" fps="24" loop="false"/>
+</character>

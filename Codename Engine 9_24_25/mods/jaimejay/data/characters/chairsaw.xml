@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/chairsaw" scale="2.2" camy="-100"  icon="dbtg" color="#FF8D16" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Idlesawsmall" x="13" y="-3" fps="24" loop="true"/>
+	<anim name="singUP" anim="sawupsmall" x="1" y="122" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Leftsawsmall" x="105" y="-25" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="rightsawsmall" x="30" y="20" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="downsawsmall" x="55" y="10" fps="24" loop="false"/>
+</character>

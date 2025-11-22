@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="revenant/cody" icon="cody" color="#04CAFF" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up" x="25" y="13" fps="24" loop="false" indices="0..3"/>
+	<anim name="singLEFT" anim="Left" x="121" y="41" fps="24" loop="false" indices="0..3"/>
+	<anim name="singRIGHT" anim="Right" x="-58" y="23" fps="24" loop="false" indices="0..3"/>
+	<anim name="singDOWN" anim="Down" x="42" y="-50" fps="24" loop="false" indices="0..3"/>
+	<anim name="singLEFTmiss" anim="Left_Miss" x="80" y="35" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="Down_Miss" x="42" y="-41" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="Right_Miss" x="-55" y="25" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="Up_Miss" x="10" y="15" fps="24" loop="false"/>
+</character>

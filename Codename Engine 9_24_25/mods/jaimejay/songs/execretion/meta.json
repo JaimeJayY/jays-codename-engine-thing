@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#B06E38",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "poop",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "execretion",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 190
+}

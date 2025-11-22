@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="irida/Marvin Puppet" scale="1.3" flipX="true" isPlayer="true" icon="marvinplush" color="#FF0000" holdTime="8.1" isGF="false">
+	<anim name="idle" anim="Idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up" x="-16" y="35" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left" x="83" y="-33" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right" x="-17" y="-36" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down" x="27" y="-44" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="Miss Up" x="-24" y="12" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="Miss Left" x="62" y="-36" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="Miss Right" x="-28" y="-44" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="Miss Down" x="44" y="-64" fps="24" loop="false"/>
+</character>

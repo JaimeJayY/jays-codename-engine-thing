@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="tailsFULL">
+	<anim name="idle" anim="exe idle"/>
+	<anim name="singDOWN" anim="exe down"/>
+	<anim name="singRIGHT" anim="exe right"/>
+	<anim name="singLEFT" anim="exe left"/>
+	<anim name="singUP" anim="exe up"/>
+</character>

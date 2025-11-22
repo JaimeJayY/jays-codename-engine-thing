@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/rose_finished" scale="1.2" camx="-300" camy="350" icon="rose shucks" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="false" indices="0..13"/>
+	<anim name="idle-alt" anim="LookingMarvinIdle" x="0" y="0" fps="24" loop="false" indices="0..13"/>
+	<anim name="singUP" anim="up" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="0" y="-1" fps="24" loop="false"/>
+	<anim name="lookingleft" anim="BopLookLeft" x="0" y="0" fps="24" loop="false" indices="0..13"/>
+	<anim name="lookingright" anim="BopLookRight" x="0" y="0" fps="24" loop="false" indices="0..13"/>
+</character>

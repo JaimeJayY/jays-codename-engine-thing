@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-2300" y="-100" sprite="execretion/Rose_Spin" scale="1.5" flipX="true" camx="850" camy="-300" isPlayer="true" icon="rose" color="#00E7FF" holdTime="12.1" isGF="false">
+	<anim name="idle" anim="Rose_Stylized" x="0" y="0" fps="24" loop="true"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-765" y="-1675" sprite="shucks/detgappear" scale="1.35" camx="1010" camy="2100"  icon="dbtg" color="#FF8D16">
+	<anim name="appear" anim="DETG_SHUT" x="0" y="0" fps="24" loop="false"/>
+</character>

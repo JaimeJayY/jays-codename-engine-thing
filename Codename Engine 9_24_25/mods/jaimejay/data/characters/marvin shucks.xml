@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/MARVIN CHAINED" camx="-300" camy="-150" scale="1.2" flipX="true" isPlayer="true" icon="marvin shucks" color="#FF0404" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Marvin_Chained Idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Marvin_Chained Up" x="-25" y="-2" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Marvin_Chained Left" x="107" y="8" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Marvin_Chained right" x="-53" y="-7" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Marvin_Chained Down" x="42" y="-60" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="LeftMiss" x="41" y="-49" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="UpMiss" x="-30" y="1" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="RightMiss" x="-40" y="105" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="DownMiss" x="15" y="-95" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/marvinShut" x="-150" y="-1490" flipX="true" camx="-300" camy="-150" scale="1.2">
+	<anim name="shut" anim="Marvin Panic" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/roseShut" x="-2575" y="5" camx="-300" camy="350" scale="1.2">
+	<anim name="shut" anim="rosebody_SHUT YA TRAPS" x="0" y="0" fps="24" loop="false"/>
+</character>

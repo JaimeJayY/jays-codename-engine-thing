@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#2647FB",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "Mark-Normal",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"quote": "Hey, it's Cesar. Can you do me a favor?",
+	"displayName": "Think",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 81
+}

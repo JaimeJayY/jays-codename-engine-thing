@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="revenant/penis" icon="pp" holdTime="5" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singDOWN" anim="down" x="15" y="-75" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="45" y="125" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="295" y="-220" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="15" y="-65" fps="24" loop="false"/>
+	<anim name="fucknobaby" anim="fucknobaby" x="5" y="70" fps="24" loop="false"/>
+</character>

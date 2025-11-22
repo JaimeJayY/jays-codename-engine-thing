@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="jimmyjaimev35" icon="jimmyv4">
+	<anim name="idle" anim="idle" x="30" y="-87" loop="true"/>
+	<anim name="singDOWN" anim="down" x="-54" y="-252"/>
+	<anim name="singRIGHT" anim="right" x="-90" y="-131"/>
+	<anim name="singLEFT" anim="left" x="240" y="-128"/>
+	<anim name="singUP" anim="up" x="-65" y="70"/>
+</character>

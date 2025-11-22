@@ -1,0 +1,22 @@
+{
+	"events": [
+		{
+			"params": [
+				0
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				false,
+				2,
+				"smoothStep",
+				"InOut"
+			],
+			"time": 36363.6363636364,
+			"name": "Camera Movement"
+		}
+	]
+}

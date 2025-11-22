@@ -66,32 +66,48 @@ function onEvent(e) {
       }
       if (isTheStage) {
         stage.obj.stageScript.active = true;
-        defaultCamZoom = stage.obj.defaultZoom;
- 
-        // changing chars position
-        dad.x = stage.obj.characterPoses.get("dad").x;
-        dad.y = stage.obj.characterPoses.get("dad").y;
-        boyfriend.x = stage.obj.characterPoses.get("boyfriend").x;
-        boyfriend.y = stage.obj.characterPoses.get("boyfriend").y;
-        gf.x = stage.obj.characterPoses.get("girlfriend").x;
-        gf.y = stage.obj.characterPoses.get("girlfriend").y;
+        FlxG.camera.zoom = defaultCamZoom;
 
-        // changing the layers gf, dad and bf in that order
-        // idk how could i change layers of another characters, just do it by code if u rlly need to
-        // if the characters layers are also wrong, just change them with ur own code
+        // === Proper character repositioning from stage data ===
+        function applyPose(char:Dynamic, tag:String)
+        {
+            if (stage.obj.characterPoses != null && stage.obj.characterPoses.exists(tag))
+            {
+                var pos = stage.obj.characterPoses.get(tag);
+                if (pos != null)
+                {
+                    if (Reflect.hasField(pos, "x")) char.x = pos.x;
+                    if (Reflect.hasField(pos, "y")) char.y = pos.y;
+                    if (Reflect.hasField(pos, "scrollX")) char.scrollFactor.x = pos.scrollX;
+                    if (Reflect.hasField(pos, "scrollY")) char.scrollFactor.y = pos.scrollY;
+                    if (Reflect.hasField(pos, "angle")) char.angle = pos.angle;
+                    if (Reflect.hasField(pos, "flipX")) char.flipX = pos.flipX;
+                }
+            }
+        }
+
+        applyPose(dad, "dad");
+        applyPose(boyfriend, "boyfriend");
+        applyPose(gf, "girlfriend");
+
+        // === Fix Character Layer Order(not working lol) ===
         remove(gf, false);
-        var gfIndex = getIndexBefore("gf", stage.obj);
-        insert(gfIndex, gf);
-
         remove(dad, false);
-        var dadIndex = getIndexBefore("dad", stage.obj);
-        if (dadIndex == gfIndex) dadIndex += 1;
-        insert(dadIndex, dad);
-        
         remove(boyfriend, false);
+
+        var gfIndex = getIndexBefore("gf", stage.obj);
+        var dadIndex = getIndexBefore("dad", stage.obj);
         var bfIndex = getIndexBefore("bf", stage.obj);
-        if (bfIndex == gfIndex || bfIndex == dadIndex) bfIndex += 1;
+
+        if (gfIndex < 0) gfIndex = members.indexOf(stage.obj) + 1;
+        if (dadIndex < 0) dadIndex = gfIndex + 1;
+        if (bfIndex < 0) bfIndex = dadIndex + 1;
+
+        insert(gfIndex, gf);
+        insert(dadIndex, dad);
         insert(bfIndex, boyfriend);
+
+
 
       } else {
         stage.obj.stageScript.active = false;

@@ -3,6 +3,6 @@
 	<anim name="idle" anim="Detg_Idle instance 1" loop="true"/>
 	<anim name="singDOWN" anim="Down_detg instance 1" x="142" y="-192"/>
 	<anim name="singRIGHT" anim="Right_Detg instance 1" x="8" y="35"/>
-	<anim name="singLEFT" anim="Left_detg instance 1" x="195" y="3"/>
-	<anim name="singUP" anim="Up_detg instance 1" x="216" y="400"/>
+	<anim name="singLEFT" anim="Left_detg instance 1" x="211" y="9"/>
+	<anim name="singUP" anim="Up_detg instance 1" x="324" y="410"/>
 </character>

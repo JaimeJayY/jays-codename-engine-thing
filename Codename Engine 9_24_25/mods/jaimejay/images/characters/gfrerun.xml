@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfrerun.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dancebeat0000" x="10" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0001" x="10" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0002" x="458" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0003" x="906" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0004" x="1354" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0005" x="1802" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0006" x="2250" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0007" x="2698" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0008" x="2698" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0009" x="2698" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0010" x="3146" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0011" x="3146" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0012" x="3146" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0013" x="3594" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0014" x="3594" y="10" width="438" height="598"/>
+	<SubTexture name="dancebeat0015" x="10" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0016" x="10" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0017" x="458" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0018" x="906" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0019" x="1354" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0020" x="1802" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0021" x="2250" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0022" x="2698" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0023" x="2698" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0024" x="2698" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0025" x="3146" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0026" x="3146" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0027" x="3146" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0028" x="3594" y="618" width="438" height="598"/>
+	<SubTexture name="dancebeat0029" x="3594" y="618" width="438" height="598"/>
+</TextureAtlas>

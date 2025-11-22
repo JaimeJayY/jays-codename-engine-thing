@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="480" y="100" sprite="execretion/Poop_Atonal" scale="2" camx="-400" camy="100" icon="poop2" color="#B06E38" holdTime="10" isGF="false">
+	<anim name="idle" anim="Poop_warrior" x="0" y="0" fps="24" loop="true" indices="0..19"/>
+	<anim name="singUP" anim="Poop_warrior_up" x="24" y="130" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Poop_warrior_left" x="236" y="75" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Poop_warrior_right" x="-15" y="50" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Poop_warrior_down" x="14" y="-174" fps="24" loop="false"/>
+</character>

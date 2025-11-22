@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-150" y='-100' sprite="corpse/eviljohn" scale="0.95" camx="-180" camy="70" icon="eviljohn" holdTime="6.1">
+	<anim name="idle" anim="Evil_John_Idle" x="6" y="0" fps="24" loop="true"/>
+	<anim name="singLEFT" anim="Evil_John_Left" x="23" y="9" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Evil_John_Down" x="0" y="-1" fps="24" loop="false"/>
+	<anim name="singUP" anim="Evil_John_Up" x="14" y="7" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Evil_John_Right" x="-40" y="-5" fps="24" loop="false"/>
+</character>

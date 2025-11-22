@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character icon="icon-Robo" color="#FF4400">
+	<anim name="idle" anim="eggman idle"/>
+	<anim name="singDOWN" anim="eggman down" x="186" y="-270"/>
+	<anim name="singRIGHT" anim="eggman right" x="-15" y="-59"/>
+	<anim name="singLEFT" anim="eggman left" x="365" y="-44"/>
+	<anim name="singUP" anim="eggman up" x="89" y="198"/>
+	<anim name="eggman laugh" anim="eggman laugh" x="180" y="20"/>
+</character>

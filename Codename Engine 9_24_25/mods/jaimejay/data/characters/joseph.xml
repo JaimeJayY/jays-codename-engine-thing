@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="revenant/joseph" icon="joe" color="#79FF03" holdTime="6.1" scale="9" isGF="false" >
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="-5" y="68" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="66" y="11" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="6" y="3" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="7" y="-25" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="missleft" x="65" y="10" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="missdown" x="7" y="-16" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="missright" x="0" y="5" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="missup" x="-14" y="69" fps="24" loop="false"/>
+</character>

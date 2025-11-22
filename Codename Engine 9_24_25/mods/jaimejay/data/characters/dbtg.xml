@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/normaldetg" scale="1.6" camy="-100" icon="dbtg" color="#FF8D16" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Detg_Idle instance 1" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up_detg instance 1" x="333" y="415" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left_detg instance 1" x="203" y="5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right_Detg instance 1" x="0" y="31" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down_detg instance 1" x="151" y="-197" fps="24" loop="false"/>
+</character>

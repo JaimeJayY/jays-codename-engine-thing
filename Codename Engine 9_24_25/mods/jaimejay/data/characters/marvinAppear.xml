@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-760" y="-1070" sprite="shucks/marvinAppear" scale="1.2" flipX="true" camx="-300" camy="-150" icon="marvinappear">
+	<anim name="appear" anim="MARVIN CHAINED extra heads" x="0" y="0" fps="24" loop="false"/>
+</character>

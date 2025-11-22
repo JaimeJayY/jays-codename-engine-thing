@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jimmyjaime.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Irida Jeffy0000" x="0" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0001" x="0" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0002" x="393" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0003" x="393" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0004" x="786" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0005" x="786" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0006" x="1179" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0007" x="1179" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0008" x="1572" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0009" x="1572" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0010" x="1965" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0011" x="1965" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0012" x="2358" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0013" x="2358" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0014" x="2358" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0015" x="2751" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0016" x="2751" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy0017" x="3144" y="0" width="393" height="659"/>
+	<SubTexture name="Irida Jeffy Down0000" x="3537" y="0" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0001" x="0" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0002" x="0" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0003" x="341" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0004" x="341" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0005" x="682" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0006" x="682" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0007" x="1023" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0008" x="1023" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0009" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0010" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0011" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0012" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0013" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Down0014" x="1364" y="659" width="341" height="520"/>
+	<SubTexture name="Irida Jeffy Left0000" x="1705" y="659" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0001" x="2323" y="659" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0002" x="2323" y="659" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0003" x="2941" y="659" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0004" x="0" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0005" x="618" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0006" x="618" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0007" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0008" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0009" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0010" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0011" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0012" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Left0013" x="1236" y="1260" width="618" height="601"/>
+	<SubTexture name="Irida Jeffy Right0000" x="1854" y="1260" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0001" x="2747" y="1260" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0002" x="2747" y="1260" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0003" x="0" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0004" x="0" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0005" x="893" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0006" x="893" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0007" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0008" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0009" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0010" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0011" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0012" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Right0013" x="1786" y="1874" width="893" height="614"/>
+	<SubTexture name="Irida Jeffy Up0000" x="2679" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0001" x="2983" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0002" x="2983" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0003" x="3287" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0004" x="3287" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0005" x="3591" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0006" x="3591" y="1874" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0007" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0008" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0009" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0010" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0011" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0012" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0013" x="0" y="2699" width="304" height="825"/>
+	<SubTexture name="Irida Jeffy Up0014" x="0" y="2699" width="304" height="825"/>
+</TextureAtlas>

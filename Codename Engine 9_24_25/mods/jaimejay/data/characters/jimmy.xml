@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="jimmyjaime" icon="jimmy">
+	<anim name="idle" anim="Irida Jeffy0" loop="true"/>
+	<anim name="singDOWN" anim="Irida Jeffy Down" x="-92" y="-195"/>
+	<anim name="singRIGHT" anim="Irida Jeffy Right" x="-127" y="-45"/>
+	<anim name="singLEFT" anim="Irida Jeffy Left" x="219" y="-40"/>
+	<anim name="singUP" anim="Irida Jeffy Up" x="-119" y="163"/>
+</character>

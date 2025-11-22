@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="240" y="-525" sprite="shucks/detgrunbody" scale="1.15" camy="-100" icon="dbtg" holdTime="6.1" isGF="false">
+<anim name="idle" anim="IDLE DETG" x="0" y="0" fps="24" loop="true"/>
+<anim name="singUP" anim="UP DETG" x="-28" y="241" fps="24" loop="false"/>
+<anim name="singLEFT" anim="LEFT DETG" x="240" y="-8" fps="24" loop="false"/>
+<anim name="singRIGHT" anim="RIGHT DETG" x="-160" y="-9" fps="24" loop="false"/>
+<anim name="singDOWN" anim="DOWN DETG" x="-135" y="-108" fps="24" loop="false"/>
+</character>

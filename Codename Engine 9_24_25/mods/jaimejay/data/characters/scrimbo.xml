@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Scrimbo" icon="sonicexe" color="#204088" y="150">
+	<anim name="idle" anim="idle" loop="true"/>
+	<anim name="singDOWN" anim="down" x="34" y="-104"/>
+	<anim name="singRIGHT" anim="right" x="-28" y="-9"/>
+	<anim name="singLEFT" anim="left" x="23" y="-69"/>
+	<anim name="singUP" anim="up" x="74" y="90"/>
+	<anim name="laughstart" anim="laughstart" x="97" y="3"/>
+	<anim name="actuallaugh" anim="actuallaugh" x="102" y="1"/>
+</character>

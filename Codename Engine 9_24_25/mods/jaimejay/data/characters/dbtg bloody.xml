@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" sprite="shucks/bloodydbtg" scale="2" y="100" camy="-100" icon="dbtg" color="#FF8D16" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle_BLUD instance 1" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up_BLUD instance 1" x="568" y="295" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left_BLUD instance 1" x="163" y="5" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right_BLUD instance 1" x="485" y="6" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down_BLUD instance 1" x="121" y="-167" fps="24" loop="false"/>
+</character>

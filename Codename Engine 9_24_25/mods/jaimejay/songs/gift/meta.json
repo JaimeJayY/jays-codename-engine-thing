@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#F3932F",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "dbtg",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "GIFT",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 165
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/tt/" name="knuckes" zoom="0.5">
+	<sprite x="-618.606001028024" sprite="kunkess" y="-275.737202869871" type="none" scale="1.57081961834243" name="sprite_3"/>
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+	<sprite x="-103.132789101518" y="92.5904781186089" type="none" name="sprite_4" sprite="redvg" scroll="0" scalex="2.17661423196425" alpha="0.7" scaley="2.17687527801242"/>
+</stage>

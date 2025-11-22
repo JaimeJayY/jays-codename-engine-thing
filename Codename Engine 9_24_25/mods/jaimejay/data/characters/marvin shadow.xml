@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/MARVIN_OUTLINE" flipX="true" isPlayer="true" icon="shadow marvin" color="#FFFBFB" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="up" x="10" y="93" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="left" x="91" y="1" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-98" y="-27" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-3" y="-75" fps="24" loop="false"/>
+	<anim name="intro" anim="bigger_intromoment" x="95" y="-5" fps="24" loop="false"/>
+</character>

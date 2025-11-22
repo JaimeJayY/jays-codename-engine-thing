@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="shucks/chair detg" scale="2.2" camy="-100" icon="dbtg" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="IdleSmall" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="UpSmall" x="-2" y="173" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="LeftSmall" x="-2" y="-16" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="RightSmall" x="-1" y="82" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="DownSmall" x="0" y="0" fps="24" loop="false"/>
+</character>

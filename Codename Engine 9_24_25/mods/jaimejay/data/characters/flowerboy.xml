@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="flowerboy/Flowerboy" icon="flowerboy" color="#830033" holdTime="10" isGF="false">
+	<anim name="idle" anim="Idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up" x="114" y="185" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left" x="306" y="40" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right" x="-10" y="-35" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down" x="19" y="-39" fps="24" loop="false"/>
+</character>

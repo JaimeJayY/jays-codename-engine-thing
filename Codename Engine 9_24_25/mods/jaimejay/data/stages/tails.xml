@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/tt/" name="tails" zoom="0.5">
+	<sprite x="-45.2548339959394" sprite="end" y="-65.0538238691626" scalex="3.05060966544099" scaley="3.09775011752009" name="sprite_4"/>
+	<sprite x="-1241.30571242189" sprite="grass" y="-570.819415201306" type="none" name="sprite_3"/>
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+	<sprite x="-76.5093298446065" y="78.9999999999881" type="none" name="sprite_5" sprite="redvg" scroll="0" alpha="0.7" scalex="2.1457666721178" scaley="2.07" skewy="-4.74074113299139e-13"/>
+</stage>

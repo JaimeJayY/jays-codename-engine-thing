@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="hehedetg" camx="-350" camy="-450" icon="dbtg" color="#040404">
+	<anim name="idle" anim="idle" x="105" y="231" fps="20" loop="true"/>
+	<anim name="singDOWN" anim="down" x="399" y="-171" fps="30"/>
+	<anim name="singRIGHT" anim="Right" x="147" y="144" fps="30"/>
+	<anim name="singLEFT" anim="Left" x="229" y="147" fps="30"/>
+	<anim name="singUP" anim="Up" x="601" y="839" fps="30"/>
+</character>

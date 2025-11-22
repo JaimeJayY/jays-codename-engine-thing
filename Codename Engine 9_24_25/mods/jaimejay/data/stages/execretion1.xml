@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/execretion/normal/" name="execretion1" zoom="0.5">
+	<sprite x="-1407.50283612921" sprite="bg" y="-497.565787920085" type="none" scale="1.5" name="sprite_3"/>
+	<sprite x="-1680.35170926855" sprite="sea" y="291.60293944021" type="none" name="sprite_7"/>
+	<sprite x="639.999893583321" sprite="pipe1" y="291.999959090132" type="none" name="sprite_9"/>
+	<sprite x="-814" sprite="block3" y="26" type="none" scrollx="0.95" name="sprite_6"/>
+	<sprite x="-1108" sprite="block1" y="468" type="none" scrollx="0.85" name="sprite_5"/>
+	<sprite x="1468.96967338792" sprite="block4" y="97.392690178589" type="none" name="sprite_13"/>
+	<sprite x="1073.16310680719" sprite="block2" y="457.116510771411" type="none" name="sprite_12"/>
+	<sprite x="-1376.63127313378" sprite="floor" y="722.987035552662" type="none" name="sprite_4"/>
+	<girlfriend scroll="1"/>
+	<dad x="-334.076383817428" y="139.804188157343"/>
+	<boyfriend/>
+	<sprite x="1188" sprite="pipe2" y="982" type="none" scrollx="1.2" name="sprite_8"/>
+	<sprite x="-94" sprite="blocks" y="-22" type="none" name="sprite_11"/>
+	<sprite x="-1543.71725519754" sprite="light" y="-363.953949030321" type="none" name="sprite_10"/>
+</stage>

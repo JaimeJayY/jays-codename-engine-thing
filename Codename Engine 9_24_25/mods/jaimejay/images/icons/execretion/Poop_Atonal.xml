@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Poop_Atonal.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Poop_warrior0000" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0001" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0002" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0003" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0004" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0005" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0006" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0007" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0008" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0009" x="5" y="5" width="1362" height="1254" frameX="-6" frameY="0" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0010" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0011" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0012" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0013" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0014" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0015" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0016" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0017" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0018" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior0019" x="1367" y="5" width="1372" height="1203" frameX="0" frameY="-35" frameWidth="1372" frameHeight="1254"/>
+	<SubTexture name="Poop_warrior_down0000" x="2739" y="5" width="1951" height="1112" frameX="0" frameY="-60" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0001" x="2739" y="5" width="1951" height="1112" frameX="0" frameY="-60" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0002" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0003" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0004" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0005" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0006" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_down0007" x="4690" y="5" width="1881" height="1227" frameX="-26" frameY="0" frameWidth="1951" frameHeight="1227"/>
+	<SubTexture name="Poop_warrior_left0000" x="5" y="1259" width="1802" height="1423" frameX="0" frameY="-19" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0001" x="5" y="1259" width="1802" height="1423" frameX="0" frameY="-19" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0002" x="5" y="1259" width="1802" height="1423" frameX="0" frameY="-19" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0003" x="1807" y="1259" width="1784" height="1352" frameX="-44" frameY="0" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0004" x="1807" y="1259" width="1784" height="1352" frameX="-44" frameY="0" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0005" x="1807" y="1259" width="1784" height="1352" frameX="-44" frameY="0" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0006" x="1807" y="1259" width="1784" height="1352" frameX="-44" frameY="0" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_left0007" x="1807" y="1259" width="1784" height="1352" frameX="-44" frameY="0" frameWidth="1828" frameHeight="1442"/>
+	<SubTexture name="Poop_warrior_right0000" x="3591" y="1259" width="1517" height="1345" frameX="-11" frameY="-6" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0001" x="3591" y="1259" width="1517" height="1345" frameX="-11" frameY="-6" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0002" x="3591" y="1259" width="1517" height="1345" frameX="-11" frameY="-6" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0003" x="5108" y="1259" width="1527" height="1388" frameX="0" frameY="0" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0004" x="5108" y="1259" width="1527" height="1388" frameX="0" frameY="0" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0005" x="5108" y="1259" width="1527" height="1388" frameX="0" frameY="0" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0006" x="5108" y="1259" width="1527" height="1388" frameX="0" frameY="0" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_right0007" x="5108" y="1259" width="1527" height="1388" frameX="0" frameY="0" frameWidth="1528" frameHeight="1388"/>
+	<SubTexture name="Poop_warrior_up0000" x="5" y="2682" width="1976" height="1375" frameX="0" frameY="0" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0001" x="5" y="2682" width="1976" height="1375" frameX="0" frameY="0" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0002" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0003" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0004" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0005" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0006" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+	<SubTexture name="Poop_warrior_up0007" x="1981" y="2682" width="1979" height="1330" frameX="-5" frameY="-53" frameWidth="1984" frameHeight="1383"/>
+</TextureAtlas>

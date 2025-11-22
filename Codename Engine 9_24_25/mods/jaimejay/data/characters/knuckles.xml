@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="fuckls" icon="icon-Knuckles" color="#FF0000">
+	<anim name="idle" anim="knuckles idle"/>
+	<anim name="singDOWN" anim="knuckles down" x="14" y="-19"/>
+	<anim name="singRIGHT" anim="knuckles right" x="114" y="5"/>
+	<anim name="singLEFT" anim="knuckles left" x="52" y="-15"/>
+	<anim name="singUP" anim="knuckles up"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="RECOVER_DETG FINAL UPDATED FLA">
+	<anim name="idle" anim="detg poses/Detg_Idle"/>
+	<anim name="singDOWN" anim="detg poses/Down_detg"/>
+	<anim name="singRIGHT" anim="detg poses/Right_Detg"/>
+	<anim name="singLEFT" anim="detg poses/Left_detg"/>
+	<anim name="singUP" anim="detg poses/Up_detg"/>
+</character>

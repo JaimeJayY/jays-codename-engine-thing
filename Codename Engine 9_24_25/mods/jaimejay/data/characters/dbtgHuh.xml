@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-430" y="-320" sprite="shucks/detgHuh" scale="1.2" camx="710" camy="660" icon="dbtgShut">
+	<anim name="tf" anim="looking_back" x="0" y="0" fps="24" loop="false" indices="25..0"/>
+	<anim name="return" anim="looking_back" x="0" y="0" fps="24" loop="false"/>
+</character>

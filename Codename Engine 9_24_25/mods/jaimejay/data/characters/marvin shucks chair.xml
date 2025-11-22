@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-775" y="100" sprite="shucks/Chair_marvin" scale="2" flipX="true" camy="-400" isPlayer="true" icon="marvin shucks" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="IdleSmall" x="-30" y="-1" fps="24" loop="true"/>
+	<anim name="singUP" anim="UpSmall" x="20" y="93.3" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="LeftSmall" x="-37.8" y="8" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="RightSmall" x="-46.5" y="25.5" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="DownSmall" x="-46" y="-45" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="UpMissSmall" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="LeftMissSmall" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="DownMissSmall" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="RightMissSmall" x="0" y="0" fps="24" loop="false"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" icon="face" y="0" scale="0.5" camx="94" camy="80" isGF="false" flipX="true" isPlayer="true" holdTime="6.1" sprite="corpse/Boing_Bingus">
+	<anim x="0" loop="true" y="0" fps="24" anim="Bingus_Idle" name="idle"/>
+	<anim x="110" loop="false" y="-60" fps="24" anim="Up" name="singUP"/>
+	<anim x="60" loop="false" y="-9" fps="24" anim="Left" name="singLEFT"/>
+	<anim x="78" loop="false" y="12" fps="24" anim="Right" name="singRIGHT"/>
+	<anim x="33" loop="false" y="-52" fps="24" anim="Down" name="singDOWN"/>
+</character>

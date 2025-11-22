@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="irida/Animated_Jeffy" icon="cartoon jeffy" color="#FFFF00"  holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Idle" x="0" y="0" fps="24" loop="true"/>
+	<anim name="singUP" anim="Up" x="1120" y="129" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Left" x="268" y="-13" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Right" x="-66" y="9" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Down" x="17" y="-8" fps="24" loop="false"/>
+</character>

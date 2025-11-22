@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" y="-180" sprite="execretion/rose screm done" flipX="true" isPlayer="true" icon="rose" holdTime="12.1" isGF="false">
+	<anim name="scream" anim="rose screm instance 1" x="0" y="0" fps="24" loop="true"/>
+</character>
