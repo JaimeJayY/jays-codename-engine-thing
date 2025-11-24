@@ -183,6 +183,13 @@
 			],
 			"time": 63157.8947368421,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 72000,
+			"name": "Camera Movement"
 		}
 	]
 }

@@ -9,16 +9,23 @@
 	<girlfriend/>
 	<sprite x="525.783487499812" sprite="pipe" y="775.363038981775" type="none" scale="1.35406813780016" name="sprite_9"/>
 	<sprite x="2069.11527071477" sprite="cliff" y="-24.257980594993" type="none" name="sprite_14"/>
-	<dad x="-182.827983897694" y="343.083262060229"/>
-	<sprite x="1252" sprite="ppspritesheet" y="220" scale="1.38" name="sprite_13"/>
+	
+	
 	<sprite x="1917.33809511662" sprite="debris3" y="582.261206702843" type="none" scale="1.28033967962086" name="sprite_11"/>
 	<sprite x="-746.23925254858" sprite="waterfall2" y="-251.770598284014" name="sprite_15"/>
+	<sprite x="1252" sprite="ppspritesheet" y="220" scale="1.38" name="sprite_13"/>
 	<sprite x="-1468.90226534791" sprite="floor" y="759.896051417782" type="none" scale="1.2" name="sprite_4"/>
+	
+	
 	<boyfriend x="1012.13481603058" y="311.785402543303"/>
+	
 	<sprite x="92.4986056779087" sprite="block1" y="174.004874711058" type="none" scale="1.45078983085766" name="sprite_7"/>
 	<sprite x="1061.83708878966" sprite="block2" y="327.801599139275" type="none" scale="1.65396987504067" name="sprite_8"/>
+	
+	<dad x="-182.827983897694" y="343.083262060229"/>
 	<sprite x="-1298.59665328145" sprite="light" y="-352.412662494089" type="none" scale="1.1" name="sprite_10"/>
 	<sprite x="-391.433155086034" sprite="fg" y="1151.36962567339" type="none" scale="1.3" name="sprite_12"/>
+	
 	
 	
 </stage>
